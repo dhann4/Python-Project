@@ -25,7 +25,7 @@ class window1:
         self.master.geometry('1350x900+0+0')
 
         # Background
-        self.bg_icons = ImageTk.PhotoImage(file = 'Screen.jpg')
+        self.bg_icons = ImageTk.PhotoImage(file = 'Screen.jpg') # Ganti dengan foto yang ada di browser kalian, foto dan file ini harus dalam folder yg sama
 
         # Label
         self.bg_lbl = Label(self.master, image=self.bg_icons)
