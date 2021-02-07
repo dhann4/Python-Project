@@ -829,7 +829,7 @@ class window2:
             self.txt_Kopi_Espresso.focus()
             self.txt_Kopi_Espresso.delete(0, END)
             self.E_Kopi_Espresso.set('')
-        elif var2.get() == 0:
+        elif self.var2.get() == 0:
             self.txt_Kopi_Espresso.configure(state=DISABLED)
             self.E_Kopi_Espresso.set('0')
 
@@ -982,7 +982,7 @@ class window2:
             self.E_Mie_Instan.set('')
         elif self.var16.get() == 0:
             self.txt_Mie_Instan.configure(state=DISABLED)
-            Eself.E_Mie_Instan.set('0')
+            self.E_Mie_Instan.set('0')
 
     # Resep ============================================================================================================
     def Print(self):
