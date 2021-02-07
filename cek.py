@@ -982,7 +982,7 @@ class window2:
             self.E_Mie_Instan.set('')
         elif self.var16.get() == 0:
             self.txt_Mie_Instan.configure(state=DISABLED)
-            Eself._Mie_Instan.set('0')
+            Eself.E_Mie_Instan.set('0')
 
     # Resep ============================================================================================================
     def Print(self):
