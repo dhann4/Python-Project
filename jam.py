@@ -8,7 +8,7 @@ jam = time.localtime().tm_hour
 jamLokal = time.asctime(time.localtime(time.time()))
 jam = time.localtime().tm_hour
 
-print("=" * 60 + "\n" + "=" * 24 + "-|" + "Kalkulator" + "|-" + "=" * 22)
+print("=" * 60 + "\n" + "=" * 24 + "-|" + "Tanggal dan Waktu" + "|-" + "=" * 22)
 print("=" * 16 + "-|" + jamLokal + "|-" + "=" * 16)
 
 if 0 <= jam <= 6:
