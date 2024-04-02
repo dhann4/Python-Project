@@ -10,6 +10,6 @@ while True:
 		print("\nDia: Kita temenan aja yah")
 		continue
 	elif pilihan == 2:
-		print("\nDia : Maaf yah, aku udah punya pacar")
+		print("\nDia : Maaf yah, kamu terlalu baik buat aku")
 	else:
 		print("hehe")
