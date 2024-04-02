@@ -165,4 +165,4 @@ while True:
         print(90*'=')
         break
     else:
-        print("Pilihan tydack tersedia")
+        print("Pilihan mu yg ngotak dikit lah")
