@@ -227,6 +227,6 @@ while True:
         print(59*'=')
         break
     else:
-        print("Pilihan Anda Tidak Tersedia")
+        print("Pilihan anda tidak tersedia")
 
 
