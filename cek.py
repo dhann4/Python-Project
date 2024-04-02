@@ -1019,7 +1019,7 @@ class window2:
         self.txt_Print.insert(END, '+ Pembayaran\n')
         self.txt_Print.insert(END, '\nHarga Minuman \t\t' + self.Harga_Minuman.get() + '\nOngkos Kirim\t\t' + self.Ongkir.get() + '\n')
         self.txt_Print.insert(END, 'Harga Makanan \t\t' + self.Harga_Makanan.get() + '\nBiaya Admin\t\t' + str(self.Sub_Total.get()) + '\n')
-        self.txt_Print.insert(END, 'Service Charge \t\t' + self.Service_Charge.get() + '\nTotal Bayar\t\t' + str(self.Total_Pembayaran.get()))
+        self.txt_Print.insert(END, 'Service charge \t\t' + self.Service_Charge.get() + '\nTotal Bayar\t\t' + str(self.Total_Pembayaran.get()))
 
 
 main()
