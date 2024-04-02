@@ -61,4 +61,4 @@ while True:
         print('See You Next Time ^_^')
         break
     else:
-        print('ANGKA NYA KAGAK NGOTAK WOE!!!')
+        print('NGOTAK DIKIT LAH, ANGKANYA!!!')
